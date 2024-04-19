@@ -24,6 +24,17 @@ Las tecnologias utilizadas para la api y su base de datos fueron las siguentes:
 - Express
 - Mysql
 
+##### Dependencias:
+<p>
+Las dependecias para este proyecto fueron:
+</p>
+
+- Express
+- mysql2
+- Sequelize
+- Cors
+- Nodemon
+
 #### Como descargar el repositorio:
 
 <p>
