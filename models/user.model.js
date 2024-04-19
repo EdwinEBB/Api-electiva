@@ -1,7 +1,12 @@
-import electivadb from "../db/db.js";
+import electivabd from "../database/db.js";
 import { DataTypes } from "sequelize";
 
-const Usermodel=electivadb.define('personas',{
+const Usermodel=electivabd.define('personas',{
+    id:{
+        type:DataTypes.INTEGER,
+        primaryKey:true,
+        allowNull:false
+    },
     nombre:{
         type:DataTypes.STRING,
         allowNull:false
