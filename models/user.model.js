@@ -1,6 +1,6 @@
 import electivabd from "../database/db.js";
 import { DataTypes } from "sequelize";
-
+//creación del modelo de base de datos
 const Usermodel=electivabd.define('personas',{
     id:{
         type:DataTypes.INTEGER,
