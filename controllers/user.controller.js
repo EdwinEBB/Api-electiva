@@ -74,7 +74,7 @@ export const updateUser=async(req,res)=>{
             mayor_de_edad:mayoredad
         });
         res.json({
-            "message":"Usuario actualizado correctamente"
+            "message":"Usuario actualizado satisfactoriamente"
         })
     } catch (error) {
         res.json({error:"Error interno en el servidor"})
