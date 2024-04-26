@@ -15,7 +15,7 @@ export const getallUser= async(req,res)=>{
     }
 }
 
-//mostrar un solo registro
+//mostrar un solo registro 123
 export const getuser= async(req,res)=>{
     try {
         //extracción de datos y muestreo
